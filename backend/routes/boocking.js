@@ -4,7 +4,7 @@ var router = express.Router();
 
 var mongojs = require("mongojs");
 
-var db = mongojs("mongodb://eman:eman@ds163181.mlab.com:63181/taxiapp", ["bookings"]);
+//var db = mongojs("mongodb://eman:eman@ds163181.mlab.com:63181/taxiapp", ["bookings"]);
 
 router.get("/bookings", function(req, res, next){
 	db.bookings.find(function(err, bookings){
