@@ -1,14 +1,16 @@
-package com.vuducminh.carpooling;
+package com.vuducminh.carpooling.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class ChooseTyoeActivity extends AppCompatActivity {
+import com.vuducminh.carpooling.R;
+
+public class SignInActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_choose_tyoe);
+        setContentView(R.layout.activity_sign_in);
     }
 }

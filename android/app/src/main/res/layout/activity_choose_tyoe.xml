@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@drawable/home_page"
-    tools:context=".ChooseTyoeActivity">
+    tools:context=".activity.ChooseTypeActivity">
     <ImageButton
         android:id="@+id/profile_page_sign_out"
         android:backgroundTint="@color/gradient0"
